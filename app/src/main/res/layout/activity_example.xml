@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Example">
+
+    <TextView
+        android:id="@+id/payamount"
+        android:layout_width="208dp"
+        android:layout_height="56dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/amount"
+        android:layout_marginEnd="0dp"
+        android:textSize="30sp"
+        android:textColor="#656565"/>
+
+    <TextView
+        android:id="@+id/amount"
+        android:layout_width="159dp"
+        android:layout_height="56dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="31dp"
+        android:text="Amount    :"
+        android:textSize="30sp"
+        android:textColor="#656565"/>
+
+    <Button
+        android:id="@+id/payto"
+        android:layout_width="128dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="38dp"
+        android:layout_marginTop="104dp"
+        android:text="Pay" />
+
+</RelativeLayout>

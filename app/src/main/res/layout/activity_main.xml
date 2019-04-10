@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbars="vertical"
+    tools:context=".MainActivity">
+    <TextView
+        android:id="@+id/domain"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_column="0"
+        android:layout_row="0"
+        android:text="Domain : "
+        android:textColor="@android:color/black"
+        android:textSize="30sp"
+        android:layout_marginTop="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+    <EditText
+        android:id="@+id/domainname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:textColor="#656565"
+        android:maxLines="1"
+         />
+
+    <TextView
+        android:id="@+id/area"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_column="0"
+        android:layout_row="0"
+        android:text="Area      : "
+        android:textColor="@android:color/black"
+        android:textSize="30sp"
+        android:layout_marginTop="55dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    <EditText
+        android:id="@+id/areaname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:layout_marginTop="48dp"
+        android:textColor="#656565"
+        android:maxLines="1"/>
+
+    <Button
+        android:id="@+id/search"
+        android:text="Search"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        android:layout_marginTop="98dp"
+        android:layout_marginLeft="0dp"
+        android:layout_width="175dp"
+        android:layout_height="50dp"
+        android:background="@drawable/shape1"
+        android:shadowColor="#A8A8A8"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="5"
+        android:layout_row="0"
+        android:layout_column="1" />
+
+    <TextView
+        android:id="@+id/rate1"
+        android:layout_width="93dp"
+        android:layout_height="71dp"
+        android:layout_column="1"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="10dp"
+        android:layout_row="1"
+        android:textColor="#FF0000"
+        android:textSize="15sp" />
+    <TextView
+        android:id="@+id/dis1"
+        android:layout_width="104dp"
+        android:layout_height="71dp"
+        android:layout_column="1"
+        android:layout_marginLeft="93dp"
+        android:layout_marginTop="16dp"
+        android:textSize="20sp"
+        />
+    <TextView
+        android:id="@+id/rate2"
+        android:layout_width="93dp"
+        android:layout_height="71dp"
+        android:layout_column="1"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="80dp"
+        android:layout_row="1"
+        android:textColor="#FF0000"
+        android:textSize="15sp" />
+    <TextView
+        android:id="@+id/dis2"
+        android:layout_width="104dp"
+        android:layout_height="71dp"
+        android:layout_column="1"
+        android:layout_marginLeft="93dp"
+        android:layout_marginTop="84dp"
+        android:layout_row="1"
+        android:textSize="20sp"/>
+    <TextView
+        android:id="@+id/rate3"
+        android:layout_width="93dp"
+        android:layout_height="71dp"
+        android:layout_column="1"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="150dp"
+        android:layout_row="1"
+        android:textColor="#FF0000"
+        android:textSize="15sp" />
+    <TextView
+        android:id="@+id/dis3"
+        android:layout_width="104dp"
+        android:layout_height="71dp"
+        android:layout_column="1"
+        android:layout_marginLeft="93dp"
+        android:layout_marginTop="156dp"
+        android:layout_row="1"
+        android:textSize="20sp"/>
+    <TextView
+        android:id="@+id/rate4"
+        android:layout_width="93dp"
+        android:layout_height="71dp"
+        android:layout_column="1"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="220dp"
+        android:layout_row="1"
+        android:textColor="#FF0000"
+        android:textSize="15sp" />
+    <TextView
+        android:id="@+id/dis4"
+        android:layout_width="104dp"
+        android:layout_height="71dp"
+        android:layout_column="1"
+        android:layout_marginLeft="93dp"
+        android:layout_marginTop="225dp"
+        android:layout_row="1"
+        android:textSize="20sp"/>
+
+
+
+    <Button
+        android:id="@+id/pay"
+        android:layout_width="wrap_content"
+        android:layout_height="45dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_column="1"
+        android:layout_marginTop="300dp"
+        android:layout_row="1"
+        android:background="@drawable/shape2"
+        android:text="Proceed to Pay>>"
+        android:textAlignment="inherit"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp" />
+
+    <RelativeLayout
+        android:layout_marginTop="0dp"
+        android:layout_width="184dp"
+        android:layout_height="570dp"
+        android:layout_column="0"
+        android:layout_row="1">
+
+
+        <TextView
+            android:id="@+id/fasttrack"
+            android:layout_width="match_parent"
+            android:layout_height="71dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="18dp"
+            android:text="Fast Track"
+            android:textColor="@android:color/black"
+            android:textSize="25sp"
+            android:textStyle="italic" />
+
+        <TextView
+            android:id="@+id/online"
+            android:layout_width="match_parent"
+            android:layout_height="71dp"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/fasttrack"
+            android:text="Online"
+            android:textColor="@android:color/black"
+            android:textSize="25sp"
+            android:textStyle="italic" />
+
+        <TextView
+            android:id="@+id/regular"
+            android:layout_width="match_parent"
+            android:layout_height="71dp"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/online"
+            android:text="Regular"
+            android:textColor="@android:color/black"
+            android:textSize="25sp"
+            android:textStyle="italic" />
+
+        <TextView
+            android:id="@+id/weekend"
+            android:layout_width="match_parent"
+            android:layout_height="71dp"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/regular"
+            android:text="Weekend"
+            android:textColor="@android:color/black"
+            android:textSize="25sp"
+            android:textStyle="italic" />
+        <TextView
+            android:id="@+id/error"
+            android:layout_width="match_parent"
+            android:layout_height="71dp"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/weekend"
+            android:text="*Select Radio Button for Course Duration"
+            android:textSize="15sp"
+            android:textColor="#FF0000"/>
+
+        <RadioGroup
+            android:id="@+id/radiogroup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentTop="true">
+
+            <RadioButton
+                android:id="@+id/rb1"
+                android:layout_width="53dp"
+                android:layout_height="45dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="17dp"
+                android:onClick="checkButton"
+                />
+
+            <RadioButton
+                android:id="@+id/rb2"
+                android:layout_width="53dp"
+                android:layout_height="45dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="25dp"
+                android:onClick="checkButton"/>
+
+            <RadioButton
+                android:id="@+id/rb3"
+                android:layout_width="53dp"
+                android:layout_height="45dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="25dp"
+                android:onClick="checkButton"/>
+
+            <RadioButton
+                android:id="@+id/rb4"
+                android:layout_width="53dp"
+                android:layout_height="45dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="25dp"
+                android:onClick="checkButton"/>
+        </RadioGroup>
+
+    </RelativeLayout>
+
+
+</GridLayout>
